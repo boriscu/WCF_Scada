@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ScadaService.ScadaService" CodeBehind="ScadaService.svc.cs" %>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34902.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScadaService", "ScadaService.csproj", "{6673DB55-3F5D-4911-8500-646D902AC8C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScadaClient", "..\ScadaClient\ScadaClient.csproj", "{76B7E3C4-F3C8-4E68-AAD2-5E2A3FAB61D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLCPublisher", "..\PLCPublisher\PLCPublisher.csproj", "{AFE3352D-BDA8-49F9-B2B1-969D679FA1F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6673DB55-3F5D-4911-8500-646D902AC8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6673DB55-3F5D-4911-8500-646D902AC8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6673DB55-3F5D-4911-8500-646D902AC8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6673DB55-3F5D-4911-8500-646D902AC8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B7E3C4-F3C8-4E68-AAD2-5E2A3FAB61D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B7E3C4-F3C8-4E68-AAD2-5E2A3FAB61D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B7E3C4-F3C8-4E68-AAD2-5E2A3FAB61D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B7E3C4-F3C8-4E68-AAD2-5E2A3FAB61D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE3352D-BDA8-49F9-B2B1-969D679FA1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE3352D-BDA8-49F9-B2B1-969D679FA1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE3352D-BDA8-49F9-B2B1-969D679FA1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE3352D-BDA8-49F9-B2B1-969D679FA1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E72D7362-073B-41C1-AB9B-A1CAB1AE6AD3}
+	EndGlobalSection
+EndGlobal
